@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition name="Weight Bolt (50)" type="9" mass="50" value="50" tags="EPE,mod" mesh_data_name="meshes/epe_weight_bolt.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
+	<tooltip_properties description="A weight block that can be attached to flat surfaces. Useful for when a regular weight block is impractical."/>
+	<sfx_datas/>
+	<surfaces>
+		<surface orientation="3">
+			<position/>
+		</surface>
+	</surfaces>
+	<buoyancy_surfaces/>
+	<logic_nodes/>
+	<couplings/>
+	<voxels>
+		<voxel flags="4">
+			<position/>
+			<physics_shape_rotation/>
+		</voxel>
+	</voxels>
+	<voxel_min/>
+	<voxel_max/>
+	<voxel_physics_min/>
+	<voxel_physics_max/>
+	<bb_physics_min/>
+	<bb_physics_max/>
+	<compartment_sample_pos/>
+	<constraint_pos_parent/>
+	<constraint_pos_child/>
+	<voxel_location_child/>
+	<seat_offset/>
+	<seat_front/>
+	<seat_up/>
+	<seat_camera/>
+	<seat_render/>
+	<force_dir/>
+	<light_position/>
+	<light_color x="1" y="1" z="1"/>
+	<light_forward/>
+	<door_size x="1" y="1" z="1"/>
+	<door_normal/>
+	<door_side/>
+	<door_up/>
+	<door_base_pos/>
+	<dynamic_body_position/>
+	<dynamic_rotation_axes y="1"/>
+	<dynamic_side_axis x="1"/>
+	<magnet_offset/>
+	<connector_axis/>
+	<connector_up/>
+	<jet_engine_connections_prev/>
+	<jet_engine_connections_next/>
+	<particle_direction/>
+	<particle_offset/>
+	<particle_bounds/>
+	<rope_hook_offset/>
+</definition>
+

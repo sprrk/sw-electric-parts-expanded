@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition name="Flat Solar Cell" category="10" type="31" mass="8" value="8000" flags="16424" tags="EPE,mod" mesh_data_name="meshes/epe_solar_flat.mesh" electric_type="5">
+	<tooltip_properties description="The cell generates electrical current based on time of day and angle towards the sun." short_description="A large, flat solar cell for generating electricity."/>
+	<sfx_datas/>
+	<surfaces>
+		<surface orientation="3" shape="1">
+			<position/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-1" z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="1" z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-2" z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-2"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-2" z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="1" z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-1" z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-1"/>
+		</surface>
+	</surfaces>
+	<buoyancy_surfaces>
+		<surface orientation="3" shape="1">
+			<position/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-1" z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="1" z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-2" z="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-2"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-2" z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="1" z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-1" z="-1"/>
+		</surface>
+		<surface orientation="3" shape="1">
+			<position x="-1"/>
+		</surface>
+	</buoyancy_surfaces>
+	<logic_nodes>
+		<logic_node label="Electric" mode="1" type="4" description="The electric connection to output electric energy.">
+			<position/>
+		</logic_node>
+	</logic_nodes>
+	<couplings/>
+	<voxels>
+		<voxel flags="1">
+			<position/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-2" z="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-2"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-2" z="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1" z="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1" z="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position z="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position z="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1" z="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1" z="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+	</voxels>
+	<voxel_min x="-2" z="-1"/>
+	<voxel_max x="1" z="1"/>
+	<voxel_physics_min x="-2" z="-1"/>
+	<voxel_physics_max x="1" z="1"/>
+	<bb_physics_min/>
+	<bb_physics_max/>
+	<compartment_sample_pos/>
+	<constraint_pos_parent/>
+	<constraint_pos_child/>
+	<voxel_location_child/>
+	<seat_offset/>
+	<seat_front/>
+	<seat_up/>
+	<seat_camera/>
+	<seat_render/>
+	<force_dir/>
+	<light_position/>
+	<light_color x="1" y="1" z="1"/>
+	<light_forward/>
+	<door_size x="1" y="1" z="1"/>
+	<door_normal/>
+	<door_side/>
+	<door_up/>
+	<door_base_pos/>
+	<dynamic_body_position/>
+	<dynamic_rotation_axes y="1"/>
+	<dynamic_side_axis x="1"/>
+	<magnet_offset/>
+	<connector_axis/>
+	<connector_up/>
+	<jet_engine_connections_prev/>
+	<jet_engine_connections_next/>
+	<particle_direction/>
+	<particle_offset/>
+	<particle_bounds/>
+	<rope_hook_offset/>
+</definition>
+
