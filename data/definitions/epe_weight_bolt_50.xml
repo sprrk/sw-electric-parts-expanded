@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Weight Bolt (50)" type="9" mass="50" value="50" tags="EPE,mod" mesh_data_name="meshes/epe_weight_bolt.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
+<definition name="Weight Bolt (50)" type="9" mass="50" value="50" flags="536870912" tags="EPE,mod" mesh_data_name="meshes/epe_deprecated.mesh" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" engine_max_force="1000" rudder_surface_area="0">
 	<tooltip_properties description="A weight block that can be attached to flat surfaces. Useful for when a regular weight block is impractical."/>
 	<sfx_datas/>
 	<surfaces>
