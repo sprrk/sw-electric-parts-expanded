@@ -4,7 +4,26 @@
 
 Capacity: 800"/>
 	<sfx_datas/>
-	<surfaces/>
+	<surfaces>
+		<surface orientation="4" rotation="0" shape="0" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="5" rotation="0" shape="0" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="2" rotation="0" shape="0" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="3" rotation="0" shape="0" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="1" rotation="0" shape="0" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="0" rotation="0" shape="0" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+	</surfaces>
 	<buoyancy_surfaces/>
 	<logic_nodes>
 		<logic_node label="Electric Store" mode="1" type="4" description="Energy storage for the electrical system.">
