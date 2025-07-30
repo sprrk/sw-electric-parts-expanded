@@ -1,81 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Flat Solar Cell" category="10" type="31" mass="8" value="8000" flags="16424" tags="EPE,mod" mesh_data_name="src/epe_solar_flat/epe_solar_flat.mesh" electric_type="5">
-	<tooltip_properties description="The cell generates electrical current based on time of day and angle towards the sun." short_description="A large, flat solar cell for generating electricity."/>
+<definition name="Flat Solar Cell" category="10" type="31" mass="0.25" value="100" flags="16424" tags="EPE,mod" mesh_data_name="src/epe_solar_flat/epe_solar_flat.mesh" electric_type="5">
+	<tooltip_properties description="The cell generates electrical current based on time of day and angle towards the sun." short_description="A flat solar cell for generating electricity."/>
 	<sfx_datas/>
 	<surfaces>
 		<surface orientation="3" shape="1">
 			<position/>
 		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-1" z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="1" z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-2" z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-2"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-2" z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="1" z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-1" z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-1"/>
-		</surface>
 	</surfaces>
 	<buoyancy_surfaces>
 		<surface orientation="3" shape="1">
 			<position/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-1" z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="1" z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-2" z="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-2"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-2" z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="1" z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-1" z="-1"/>
-		</surface>
-		<surface orientation="3" shape="1">
-			<position x="-1"/>
 		</surface>
 	</buoyancy_surfaces>
 	<logic_nodes>
@@ -87,57 +21,39 @@
 	<voxels>
 		<voxel flags="1">
 			<position/>
-			<physics_shape_rotation/>
 		</voxel>
-		<voxel flags="1">
-			<position x="-2" z="-1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="1"/>
 		</voxel>
-		<voxel flags="1">
-			<position x="-2"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="2"/>
 		</voxel>
-		<voxel flags="1">
-			<position x="-2" z="1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="3"/>
 		</voxel>
-		<voxel flags="1">
-			<position x="-1" z="-1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="4"/>
 		</voxel>
-		<voxel flags="1">
-			<position x="-1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="5"/>
 		</voxel>
-		<voxel flags="1">
-			<position x="-1" z="1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="6"/>
 		</voxel>
-		<voxel flags="1">
-			<position z="-1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="7"/>
 		</voxel>
-		<voxel flags="1">
-			<position z="1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="8"/>
 		</voxel>
-		<voxel flags="1">
-			<position x="1" z="-1"/>
-			<physics_shape_rotation/>
-		</voxel>
-		<voxel flags="1">
-			<position x="1"/>
-			<physics_shape_rotation/>
-		</voxel>
-		<voxel flags="1">
-			<position x="1" z="1"/>
-			<physics_shape_rotation/>
+		<voxel>
+			<position y="9"/>
 		</voxel>
 	</voxels>
-	<voxel_min x="-2" z="-1"/>
-	<voxel_max x="1" z="1"/>
-	<voxel_physics_min x="-2" z="-1"/>
-	<voxel_physics_max x="1" z="1"/>
+	<voxel_min/>
+	<voxel_max y="1"/>
+	<voxel_physics_min/>
+	<voxel_physics_max/>
 	<bb_physics_min/>
 	<bb_physics_max/>
 	<compartment_sample_pos/>
