@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Small Robotic Hinge" category="2" type="7" mass="1" flags="384" mesh_data_name="meshes/epe_robotic_hinge_small_b.mesh" constraint_axis="2" max_motor_force="1000" cable_length="16" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" engine_max_force="1000" wheel_radius="0.25" button_type="1" light_range="1" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1" door_lower_limit="-1" door_upper_limit="1" dynamic_max_rotation="3.141593" magnet_force="1" rudder_surface_area="0">
+<definition name="Small Robotic Hinge" category="2" type="7" mass="1" flags="536871296" mesh_data_name="meshes/epe_deprecated.mesh" constraint_axis="2" max_motor_force="1000" cable_length="16" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" engine_max_force="1000" wheel_radius="0.25" button_type="1" light_range="1" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1" door_lower_limit="-1" door_upper_limit="1" dynamic_max_rotation="3.141593" magnet_force="1" rudder_surface_area="0">
 	<tooltip_properties/>
 	<sfx_datas/>
 	<surfaces>
