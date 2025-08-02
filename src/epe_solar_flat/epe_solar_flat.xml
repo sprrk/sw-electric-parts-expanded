@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<definition name="Flat Solar Cell" category="10" type="31" mass="0.25" value="100" flags="16424" tags="EPE,mod" mesh_data_name="src/epe_solar_flat/epe_solar_flat.mesh" electric_type="5">
+<definition name="Flat Solar Cell" category="10" type="31" mass="0.25" value="100" flags="16424" tags="EPE,mod" mesh_data_name="epe_solar_flat.mesh" electric_type="5">
 	<tooltip_properties description="The cell generates electrical current based on time of day and angle towards the sun." short_description="A flat solar cell for generating electricity."/>
 	<sfx_datas/>
 	<surfaces>

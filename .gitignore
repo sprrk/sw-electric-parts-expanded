@@ -2,4 +2,6 @@
 **.mesh
 **.env
 **.bak
+**.bin
 **.kate-swp
+build/
