@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition name="Circuit Breaker" category="10" type="31" mass="1" value="100" flags="24576" tags="basic,EPE,mod" phys_collision_dampen="0" audio_filename_start="audio/misc/stormworks_button_press.ogg" audio_filename_loop="" audio_filename_end="" audio_filename_start_b="" audio_filename_loop_b="" audio_filename_end_b="" audio_gain="1" mesh_data_name="epe_circuit_breaker.mesh" mesh_0_name="epe_circuit_breaker_switch.mesh" mesh_1_name="" mesh_editor_only_name="" block_type="0" child_name="" extender_name="" constraint_type="0" constraint_axis="1" constraint_range_of_motion="0" max_motor_force="100" max_motor_speed="10" cable_radius="16" cable_length="-431602080" seat_pose="0" seat_health_per_sec="1" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" force_emitter_default_pitch="0" force_emitter_blade_height="0" force_emitter_rotation_speed="1" force_emitter_blade_physics_length="4" engine_max_force="1000" trans_conn_type="0" wheel_radius="0.25" button_type="1" light_intensity="1" light_range="1" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1" light_type="0" door_lower_limit="-1" door_upper_limit="1" door_flipped="false" custom_door_type="0" door_side_dist="1" door_up_dist="1" dynamic_min_rotation="0" dynamic_max_rotation="3.141593" logic_gate_type="0" indicator_type="0" connector_type="0" magnet_force="1" gyro_type="0" rudder_surface_area="1" pump_pressure="0.01" water_component_type="0" torque_component_type="0" particle_speed="0.05" inventory_type="0" inventory_default_outfit="0" electric_type="3" electric_charge_capacity="0" electric_magnitude="0">
+	<sfx_datas>
+		<sfx_data sfx_name="breaker" sfx_range_inner="3.0" sfx_range_outer="6.0" sfx_priority="0.2" sfx_is_underwater_affected="true">
+			<sfx_layers>
+				<sfx_layer sfx_filename_start="audio/fx5/button_toggle_on.ogg" sfx_filename_loop="" sfx_filename_end="" sfx_gain="1.0" sfx_loop_start_time="0.75" sfx_loop_blend_duration="10.0" sfx_volume_fade_speed="1.0" sfx_pitch_fade_speed="1.0"/>
+			</sfx_layers>
+		</sfx_data>
+	</sfx_datas>
+	<surfaces>
+		<surface orientation="1" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="4" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="0" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="5" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="3" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+	</surfaces>
+	<buoyancy_surfaces>
+		<surface orientation="0" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="4" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="1" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="5" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="2" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+		<surface orientation="3" rotation="0" shape="1" trans_type="0">
+			<position x="0" y="0" z="0"/>
+		</surface>
+	</buoyancy_surfaces>
+	<logic_nodes>
+		<logic_node label="Electric A" mode="1" type="4" description="Terminal A electrical connection." flags="0">
+			<position x="0" y="0" z="0"/>
+		</logic_node>
+		<logic_node label="Electric B" mode="1" type="4" description="Terminal B electrical connection." flags="0">
+			<position x="0" y="1" z="0"/>
+		</logic_node>
+	</logic_nodes>
+	<voxels>
+		<voxel flags="1" physics_shape="0" buoy_pipes="0">
+			<position x="0" y="0" z="0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+		<voxel flags="0" physics_shape="0" buoy_pipes="0">
+			<position x="0" y="1" z="0"/>
+			<physics_shape_rotation 00="1" 01="0" 02="0" 10="0" 11="1" 12="0" 20="0" 21="0" 22="1"/>
+		</voxel>
+	</voxels>
+	<voxel_min x="0" y="0" z="0"/>
+	<voxel_max x="0" y="1" z="0"/>
+	<voxel_physics_min x="0" y="0" z="0"/>
+	<voxel_physics_max x="0" y="0" z="0"/>
+	<bb_physics_min x="0" y="0" z="0"/>
+	<bb_physics_max x="0" y="0" z="0"/>
+	<constraint_pos_parent x="0" y="0" z="0"/>
+	<constraint_pos_child x="0" y="0" z="0"/>
+	<voxel_location_child x="0" y="0" z="0"/>
+	<seat_offset x="0" y="0" z="0"/>
+	<seat_front x="0" y="0" z="1"/>
+	<seat_up x="0" y="1" z="0"/>
+	<seat_camera x="0" y="0" z="0"/>
+	<seat_render x="0" y="0" z="0"/>
+	<force_dir x="0" y="0" z="0"/>
+	<light_position x="0" y="0" z="0"/>
+	<light_color x="1" y="1" z="1"/>
+	<door_size x="1" y="1" z="1"/>
+	<door_normal x="0" y="0" z="1"/>
+	<door_side x="1" y="0" z="0"/>
+	<door_up x="0" y="1" z="0"/>
+	<door_base_pos x="0" y="0" z="0"/>
+	<dynamic_body_position x="0" y="0" z="0"/>
+	<dynamic_rotation_axes x="0" y="1" z="0"/>
+	<dynamic_side_axis x="1" y="0" z="0"/>
+	<magnet_offset x="0" y="0" z="0"/>
+	<tooltip_properties description="When turned on, the circuit breaker closes the circuit, allowing electrical energy to flow between terminals A and B." short_description="A circuit breaker for electrical systems."/>
+	<reward_properties number_rewarded="1"/>
+	<particle_direction x="0" y="1" z="0"/>
+	<particle_offset x="0" y="0" z="0"/>
+	<particle_bounds x="0.2" y="0.2" z="0.2"/>
+</definition>
+
